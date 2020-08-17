@@ -8,7 +8,7 @@ To run, right click the powershell script file named AGDUD.ps1 and click Run wit
 
 ![Image of Run with PowerShell](https://raw.githubusercontent.com/jonathannwinters/adgud/master/RunWithPowerShell.png)
 
-Then choose the desired department.
+Then choose the desired departmen and click.
 
 ![Image of ADGUD GUI](https://raw.githubusercontent.com/jonathannwinters/adgud/master/ADGUD.png)
 
