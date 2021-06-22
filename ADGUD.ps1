@@ -85,7 +85,7 @@ $main_form.AutoSize = $true
 
 
 
-
+# Add "Department" Label (Label)
 $Label = New-Object System.Windows.Forms.Label
 
 $Label.Text = "Department: "
@@ -98,7 +98,7 @@ $main_form.Controls.Add($Label)
 
 
 
-
+# Add Department Combo Box (ComboBox)
 $ComboBox = New-Object System.Windows.Forms.ComboBox
 
 $ComboBox.Width = 300
@@ -119,7 +119,7 @@ $main_form.Controls.Add($ComboBox)
 
 
 
-
+# Add Groups Combo Box (ComboBox2)
 $ComboBox2 = New-Object System.Windows.Forms.ComboBox
 
 $ComboBox2.Width = 300
@@ -130,7 +130,7 @@ $main_form.Controls.Add($ComboBox2)
 
 
 
-
+# Add Groups Label (Label2)
 $Label2 = New-Object System.Windows.Forms.Label
 
 $Label2.Text = "Available Groups:"
@@ -141,6 +141,8 @@ $Label2.AutoSize = $true
 
 $main_form.Controls.Add($Label2)
 
+
+# Add Results Label (Label3)
 $Label3 = New-Object System.Windows.Forms.Label
 
 $Label3.Text = "Results of Query: "
@@ -154,7 +156,7 @@ $main_form.Controls.Add($Label3)
 
 
 
-
+# Add Get Groups Button (Button)
 $Button = New-Object System.Windows.Forms.Button
 
 $Button.Location = New-Object System.Drawing.Size(410,10)
@@ -186,7 +188,7 @@ $Button.Add_Click(
 
 
 
-
+# Add Get User Details button (Button2)
 $Button2 = New-Object System.Windows.Forms.Button
 
 $Button2.Location = New-Object System.Drawing.Size(410,40)
@@ -212,8 +214,7 @@ $Button2.Add_Click({
 
 
 
-
-
+# Add Textbox to display results (reused for both group and user results output)
 $TextBox = New-Object System.Windows.Forms.TextBox
 
 $TextBox.Width = 600
@@ -223,6 +224,7 @@ $TextBox.Location  = New-Object System.Drawing.Point(10,80)
 $TextBox.MultiLine = $True
 
 $main_form.Controls.Add($TextBox)
+
 
 
 $main_form.ShowDialog()
