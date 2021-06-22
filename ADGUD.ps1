@@ -5,7 +5,7 @@
 ├─────────────────────────────────────────────────────────────────────────────────────────────┤ 
 │   DATE        : 2020.06.12                                                                  |
 │   AUTHOR      : __Jonathan N. Winters, jnw25@cornell.edu__                                  |
-│   DESCRIPTION : Script that Queries a Microsoft AD Server for All Groups their User Details |
+│   DESCRIPTION : Script that Queries a Microsoft AD Server for All Groups User Details       |
 └─────────────────────────────────────────────────────────────────────────────────────────────┘ 
  
 #>
